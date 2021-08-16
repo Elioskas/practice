@@ -87,19 +87,19 @@ footer {
 }
 
 .btn-one:hover {
-    border: white solid 3px;
+    outline: white solid 3px;
     color: white;
     background-color: hsl(31, 77%, 52%);
 }
 
 .btn-two:hover {
-    border: white solid 3px;
+    outline: white solid 3px;
     color: white;
     background-color: hsl(184, 100%, 22%)
 }
 
 .btn-three:hover {
-    border: white solid 3px;
+    outline: white solid 3px;
     color: white;
     background-color: hsl(179, 100%, 13%);
 }
