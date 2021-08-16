@@ -25,6 +25,9 @@ a {
     text-align: center;
     text-decoration: none;
 }
+footer { 
+     display: none;
+}
 p {
     font-size: 1rem;
     margin-bottom: 5rem;
@@ -83,7 +86,7 @@ p {
 }
 
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 500px) {
     body {
         margin:0%;
         padding: 5rem 1rem;
