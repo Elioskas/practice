@@ -3,11 +3,10 @@ body {
     box-sizing: border-box;
     background: gray;
     color: white;
-    margin:25%;
+    margin: 25%;
     padding:0;
     display: grid;
     justify-items: center;
-    /* max-width: 1440px; */
 }
 h1 {
     text-transform: uppercase;
@@ -15,27 +14,20 @@ h1 {
     font-size: 3rem;
 }
 
-a {
-    background-color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 700;
-    padding: 0.5rem 1.2rem;
-    border-radius: 2rem;
-    text-align: center;
-    text-decoration: none;
-}
-footer { 
-     display: none;
-}
+
 p {
     font-size: 1rem;
     margin-bottom: 5rem;
 }
 
+footer {
+    align-content: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
 .container {
     display: grid;
-    /* width: 900px; */
     grid-template-columns: 33% 33% 33%;
 }
 
@@ -57,14 +49,41 @@ p {
 
 .btn-one {
     color: hsl(31, 77%, 52%);
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .btn-two {
     color:hsl(184, 100%, 22%);
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
 }
 
 .btn-three {
     color:hsl(179, 100%, 13%);
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .btn-one:hover {
